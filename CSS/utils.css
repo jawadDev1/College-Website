@@ -1,0 +1,83 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.mt-5{
+    margin-top: 5rem;
+}
+.my-1{
+    margin: .7rem 0;
+}
+
+.my-2{
+    margin: 2rem 0;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+.gap-5{
+    gap: 5rem;
+}
+.bg-red{
+   color:  rgb(220, 6, 6);
+    color: #fff;
+}
+.font-sub-bg{
+    font-size: 1.7rem;
+}
+.font-bg{
+    font-size: 3rem;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.btn , .red-btn{
+    border: 1.3px solid white;
+    background: transparent;
+    width: 9rem;
+    /* height: 2.5rem; */
+    padding: .3rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
+}
+
+.btn:hover{
+    border: 1px solid #f44336;
+    background: #ff0000;
+    
+}
+
+.red-btn{
+    border: 1.3px solid rgb(230, 13, 13);
+    color: #ff0000;
+    background: transparent;
+    padding: .5rem;
+}
+.red-btn:hover{
+    background: #ff0000;
+    color: white;
+    cursor: pointer;
+}
+.border-b{
+    border-bottom: 4px solid rgb(184, 16, 16);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+

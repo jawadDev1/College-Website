@@ -1,0 +1,60 @@
+.contact .map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .map iframe{
+    width: 80%;
+}
+
+.contact-form{
+    width: 100%;
+    padding: 2rem;
+}
+
+.contact-form .info{
+    width: 50%;
+}
+.contact-form .contact-input{
+    width: 50%;
+}
+.contact-form .info .fa-solid{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    color: rgb(220, 6, 6);
+}
+
+
+.contact-form .contact-input input, .contact-form .contact-input textarea{
+    width: 80%;
+    padding: .7rem; 
+    outline: none;
+    resize: none;
+    margin: .8rem 0;
+}
+
+
+
+/* **************************** Responsive ************************* */
+@media (max-width: 700px){
+    .contact-form{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .contact-form div{
+        width: 90% !important;
+        margin: 1rem;
+
+    }
+    .contact-form .contact-input form , .contact-form .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form .contact-input input, .contact-form .contact-input textarea{
+        width: 90%;
+    }
+}

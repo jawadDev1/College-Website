@@ -1,0 +1,77 @@
+.about-header {
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    color: white;
+}
+
+
+.about-header .text-box {
+    text-align: center;
+    height: 28vh !important;
+}
+
+.about-us {
+    width: 100%;
+    padding: 2rem;
+}
+
+.about-us .about-content {
+    width: 50%;
+    padding: 1rem;
+}
+
+.about-us .about-content h1 {
+    font-size: 1.7rem;
+}
+
+.about-us .about-content p {
+    font-size: 1rem;
+}
+
+.about-us .about-image {
+    width: 48%;
+}
+
+.about-us .about-image img {
+    width: 100%;
+}
+
+
+
+@media (max-width:700px) {
+    html{
+        overflow-x: hidden;
+    }
+    .about-header{
+        padding: .2px;
+    }
+    .about-header .text-box h1 {
+        font-size: 2rem;
+        /* margin-bottom: 6rem;      */
+    }
+
+    .about-header .logo a img {
+        width: 7rem;
+    }
+
+    .about-us {
+        flex-direction: column-reverse;
+    }
+
+    .about-us .about-content {
+        width: 100%;
+    }
+
+    .about-us .about-image {
+        width: 100%;
+    }
+
+    .footer {
+        overflow: hidden;
+    }
+
+
+}

@@ -1,0 +1,110 @@
+@media (max-width: 700px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        position: relative;
+    }
+    .navbar .logo img{
+        width: 35vw;
+    }
+    .navbar .logo{
+        padding: 1rem;   
+    }
+    nav img{
+        display: block;
+        width: 5vw;
+        /* color: #f00d; */
+    }
+    .header{
+        padding: 0;
+    }
+    .nav{
+        margin-top: 0 !important;
+        height: 100vh;
+        background: red;
+        width: 18rem;
+        position: absolute;
+        margin-left: 113rem;
+        transition: .5s;
+        
+    }
+    nav ul{
+        flex-direction: column;
+        /* margin-right: 4rem; */
+    }
+    nav ul li{
+        margin: 1rem;
+        display: block;
+        /* margin-right: -500; */
+    }
+    .fa-solid{
+        display: block;
+        margin: 10px;
+        font-size: 1.6rem;
+        
+        cursor: pointer;
+    }
+    .fa-bars{
+        display: block;
+        margin: 1.2rem;
+        /* font-size: 1.8rem; */
+    }
+
+    /* *********************** Course ****************************************** */
+    .courses{
+        flex-direction: column;
+    }
+    .courses h3{
+        margin-bottom: .7rem;
+    }
+
+    /* *********************** Campuses ****************************************** */
+    .campuses{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .campuse-card{
+        width: 100%;
+    }
+
+    /* *********************** Facilities ****************************************** */
+    .facilities{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .facilities .f-card{
+        width: 80%;
+    }
+
+    /* *********************** Testimonials ****************************************** */
+    .testimonials{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonials .testi-card{
+        width: 80%;
+    }
+    .testimonials .testi-card .stars{
+        display: flex;
+    }
+    /* *********************** Call To Action ****************************************** */
+    .cta .h3{
+        font-size: .5rem !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

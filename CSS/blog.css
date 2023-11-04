@@ -1,0 +1,60 @@
+.text-box h1{
+    font-size: 2.4rem;
+    word-spacing: .2rem;
+}
+.blog-content{
+    padding: 2rem;
+}
+.blog-data{
+    width: 75%;
+}
+.blog-categories{
+    width: 30%;
+}
+
+.blog-data img{
+    width: 100%;
+}
+
+.blog-data .coment-form{
+    border: 2px solid #ccc;
+    padding: 3rem .5rem 3rem 2rem;
+}
+.blog-data .coment-form h3{
+    margin-bottom: 2rem;
+}
+
+.blog-data .coment-form .form{
+    width: 80%;
+    padding: .7rem; 
+    outline: none;
+}
+.blog-data .coment-form textarea{
+    resize: none;
+}
+.blog-categories div span{
+    display: block;
+    line-height: 2;
+}
+
+
+/* ******************** Responsive ************* */
+@media (max-width: 700px){
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-content div{
+        width: 100%;
+    }
+    .text-box{
+        padding: .2rem;
+    }
+    .text-box h1{
+        font-size: 1.7rem !important;
+        word-spacing: 0rem;
+        line-height: 2.3rem;
+    }
+}
+
+
+

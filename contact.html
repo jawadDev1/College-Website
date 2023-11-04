@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <script src="script.js" defer></script>
+    <title>Eduroad College</title>
+</head>
+
+<body>
+    <header class="header about-header">
+        <div class="navbar flex justify-between">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav" id="nav">
+                <i class="fa-solid fa-xmark cross-icon " onclick="hide()"></i>
+                <!-- <img src="images/xmark-solid.svg" alt="close image"> -->
+                <ul class="flex">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars " onclick="show()"></i>
+
+        </div>
+        <div class="text-box flex flex-col">
+            <h1 class="my-2">Contact Us</h1>
+        </div>
+    </header>
+
+
+    <!-- ******************************* Contact Form **************** -->
+
+    <section class="contact mt-5">
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54980.66163458402!2d72.65748135210735!3d30.541071440649027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39232a0c466df715%3A0x9dbbc742bdf47fa!2sChichawatni%2C%20Sahiwal%20District%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1675091756122!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-form my-2 flex justify-between">
+            <div class="info my-2">
+                <div class="address flex">
+                    <i class="fa-solid fa-house"></i>
+                    <div>
+                        <h3>XYZ Road, ABC Building</h3>
+                        <p>Chichawatni, Sahiwal, PK</p>
+                    </div>
+                </div>
+                <div class="phone flex my-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h3>+92 3045111111</h3>
+                        <p>Monday to Friday, 9AM to 5PM</p>
+                    </div>
+                </div>
+                <div class="e-mail flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h3>eduroad@gmail.com</h3>
+                        <p>Email us your query</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="contact-input ">
+                <form action="contact.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="text" name="subject" placeholder="Enter Subject" >
+                    <textarea rows="7" name="message" placeholder="Enter query" required></textarea>
+                    <button class="red-btn btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <!-- *********************** Footer ******************************************  -->
+    <footer class="footer flex flex-col gap-2 mt-5">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quis explicabo dolorum nam, <br>
+            voluptatibus iste exercitationem reiciendis? Eos molestias eaque suscipit omnis doloremque!</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <p>&copy; Eduroad University | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

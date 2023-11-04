@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <script src="script.js" defer></script>
+    <title>Eduroad College</title>
+</head>
+
+<body>
+    <header class="header about-header">
+        <div class="navbar flex justify-between">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav" id="nav">
+                <i class="fa-solid fa-xmark cross-icon " onclick="hide()"></i>
+                <!-- <img src="images/xmark-solid.svg" alt="close image"> -->
+                <ul class="flex">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars " onclick="show()"></i>
+
+        </div>
+        <div class="text-box flex flex-col">
+            <h1 class="my-2 font-bg">About Us</h1>
+        </div>
+    </header>
+
+
+    <!-- ******** About Content ********* -->
+    <section class="about-us flex justify-between mt-5 gap-2">
+        <div class="about-content">
+            <h1>We are the world's largest universty</h1>
+            <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat veritatis magnam sit vero odit minima. A dicta voluptatibus quae, blanditiis tenetur perferendis non eaque, quas illo facere maxime laboriosam recusandae, totam minima eius quia rerum ut sequi quisquam natus numquam distinctio veniam? Id dolorum doloremque labore consequatur nemo impedit.</p>
+            <button class="btn red-btn">EXPLORE NOW</button>
+        </div>
+        <div class="about-image">
+            <img src="images/about.jpg" alt="About Image">
+        </div>
+    </section>
+
+
+
+    <!-- ***************** -->
+
+
+
+    <footer class="footer flex flex-col gap-2 mt-5">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quis explicabo dolorum nam, <br>
+            voluptatibus iste exercitationem reiciendis? Eos molestias eaque suscipit omnis doloremque!</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <p>&copy; Eduroad University | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

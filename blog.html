@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <script src="script.js" defer></script>
+    <title>Eduroad College</title>
+</head>
+
+<body>
+    <header class="header about-header">
+        <div class="navbar flex justify-between">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav" id="nav">
+                <i class="fa-solid fa-xmark cross-icon " onclick="hide()"></i>
+                <!-- <img src="images/xmark-solid.svg" alt="close image"> -->
+                <ul class="flex">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars " onclick="show()"></i>
+
+        </div>
+        <div class="text-box flex flex-col">
+            <h1 class="my-2">Our Certificate and Online Program <br> For 2023</h1>
+        </div>
+    </header>
+
+
+    <!-- ******** Blog Content ********* -->
+    <section class="flex blog-content gap-5 mt-5">
+        <div class="blog-data">
+            <img src="images/certificate.jpg" alt="Certificate Image">
+            <h3 class="my-2">Our Certificate and Online Program For 2023</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ea officia provident voluptas, architecto sequi nulla, non molestiae doloremque qui quas soluta voluptatum quos nesciunt? Perferendis nesciunt voluptatem exercitationem error iusto, molestiae ducimus quis, libero quae maxime quo voluptates unde vitae at animi repellendus ex, dolorem aperiam temporibus delectus est.</p>
+            <p class="my-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo optio error, officia quas sequi adipisci repudiandae provident eum. Quidem repellendus sequi molestiae repudiandae nemo aperiam et, voluptatem doloribus temporibus, dicta unde fugit dolor ab ipsam exercitationem! Earum placeat deserunt blanditiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque magnam error accusantium, illum consequuntur fugiat minima blanditiis iste qui mollitia quia vitae pariatur cupiditate praesentium itaque reiciendis quod consequatur voluptatum fugit similique nobis voluptas nemo corporis. Modi voluptas repellat facere minus eveniet ipsa ab, aut, harum et quibusdam corporis, odio quae aperiam inventore blanditiis quis praesentium perspiciatis excepturi? Placeat, illum?</p>
+            <p class="my-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis non cum corporis perspiciatis voluptatum, ea, possimus sint accusamus ut excepturi impedit, repudiandae natus unde reprehenderit. Voluptatem quibusdam ullam nulla incidunt.</p>
+
+
+            <div class="coment-form mt-5">
+                <form>
+                    <h3>Leave a Comment</h3>
+                    <input type="text" placeholder="Enter Name" class="form" required>
+                    <input type="email" placeholder="Enter Email" class="form my-2" required>
+                    <textarea rows="6" class="form" placeholder="Leave your comment" required></textarea>
+                    <button type="submit" class="btn red-btn my-1">Upload Comment</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="blog-categories">
+            <h3 class="text-center bg-red my-1">Post Categroies</h3>
+            <div>
+                <span>Computer Science</span>
+                <span>Data Analysis</span>
+                <span>Ecoommerce</span>
+                <span>Artificial Intelligence</span>
+                <span>Data Structures</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***************** -->
+
+
+
+    <footer class="footer flex flex-col gap-2 mt-5">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quis explicabo dolorum nam, <br>
+            voluptatibus iste exercitationem reiciendis? Eos molestias eaque suscipit omnis doloremque!</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <p>&copy; Eduroad University | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
